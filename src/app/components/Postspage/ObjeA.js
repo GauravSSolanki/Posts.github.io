@@ -15,32 +15,32 @@ const ObjeA = () => {
   const members = [
     {
       title: 'John Doe',
-      id : 25,
+      id : 1,
       image: img6,
     },
     {
         title: ' Daniel Michael',
-        id : 25,
+        id : 2,
         image: pro,
     },
     {
         title: 'Benjamin',
-        id : 25,
+        id : 3,
         image: img2,  
     },
     {
       title: 'Mike Johnson',
-      id : 25,
+      id : 4,
       image: img1,  
   },
   {
     title: 'Jane Smith',
-    id : 25,
+    id : 5,
     image: img4,  
 },
 {
   title: 'Alexander',
-  id : 25,
+  id : 6,
   image: img3,  
 }
   ];
@@ -49,7 +49,7 @@ const ObjeA = () => {
     <div>
       {members.map((member) => (
         <div >
-           <Post title={member.title} image={member.image}/>
+           <Post title={member.title} key={member.id} image={member.image}/>
         </div>
       ))}
     </div>
