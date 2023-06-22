@@ -1,0 +1,80 @@
+.sidebar {
+    width: 19vw;
+    display: flex;
+    border-right: 0.1vh solid white;
+    flex-direction: column;
+    background-color: white;
+    padding: 1vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    right: 1vw;
+    box-shadow: rgba(113, 111, 111, 0.4) 0px 2px 4px, rgba(189, 186, 186, 0.3) 0px 7px 13px -3px, rgba(173, 171, 171, 0.2) 0px -3px 0px inset;
+  }
+  .icon{
+    width: 5vh;
+    height: 7vh;
+    color: rgb(7, 7, 7);
+    margin-left: 18.6vh;
+  }
+  
+  .sidebarList {
+    list-style: none;
+  }
+  
+  .sidebarItem {
+    width: 19vh;
+    margin: auto;
+    margin-top: 4vh;
+    border-radius: 1vh;
+    padding: 0.4vh;
+    text-align: center;
+  }
+  .sidebarItem:hover{
+    background-color: #292929;
+  }
+  
+  .sidebarLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0e0e0e;
+
+  }
+  
+  .sidebarIcon {
+    margin-right: 10px;
+  }
+  
+  .sidebarTitle {
+    margin: auto;
+    font-size: large;
+    color: rgb(7, 7, 7);
+    font-weight: 400;
+  }
+  .sidebarTitle:hover {
+   color: #f1e9e9;
+  }
+  .top{
+    margin: 1em;
+    text-shadow: rgb(106, 105, 105) 1px 0 10px;
+    letter-spacing: 0.1vh;
+    text-align: center;
+    cursor: default;
+    color: rgb(10, 10, 10);
+  }
+  .btn{
+    font-size: large;
+    font-weight: 300;
+    margin-top: 40vh;
+    margin-inline: auto;
+    background-color: #555454;
+    border: none;
+    border-radius: 1vh;
+    width: 20vh;
+    text-align: center;
+    padding: 0.4vh;
+  }
+  .btn:hover{
+    background-color: #514f4f;
+  }
