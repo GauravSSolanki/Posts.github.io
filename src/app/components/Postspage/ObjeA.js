@@ -49,7 +49,7 @@ const ObjeA = () => {
     <div>
       {members.map((member) => (
         <div >
-           <Post title={member.title} key={member.id} image={member.image}/>
+           <Post key={member.id} title={member.title}  image={member.image}/>
         </div>
       ))}
     </div>

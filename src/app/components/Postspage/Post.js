@@ -28,7 +28,7 @@ import Image from 'next/image';
 //   }
 // }
 
-  const Post = (/* {data} */ {title,id,image}) => {
+  const Post = (/* {data} */ {id,title,image}) => {
    
   // return(
   // {data.map((item) => (
